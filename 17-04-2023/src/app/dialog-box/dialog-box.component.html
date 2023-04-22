@@ -1,0 +1,24 @@
+<button mat-icon-button style="float:right;margin:5px;"matDialogClose>
+<mat-icon>close</mat-icon>
+</button>
+<mat-dialog-content>
+    <header><h1>Application Form</h1></header>
+    <mat-form-field>
+        <input matInput placeholder="First Name">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Last Name">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Education">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput [matDatepicker]="datepicker" placeholder="DOB">
+        <mat-datepicker-toggle matSuffix [for]="datepicker"></mat-datepicker-toggle>
+        <mat-datepicker #datepicker></mat-datepicker>
+    </mat-form-field>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+    <button mat-raised-button clolor="'Primary">Save</button>
+    <button mat-raised-button clolor="'warn"matDialogClose>Cancel</button>
+</mat-dialog-actions>
