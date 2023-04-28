@@ -1,0 +1,95 @@
+{
+     "products": [
+    {
+        "id": 1,
+        "name": "Ironbox",
+        "price": 55,
+        "image": "Ironbox.jpg",
+        "type": "Electronics"
+    },
+        {
+         "id": 2,
+         "name": "Refrigerator",
+         "price": 275,
+         "image": "Refrigerator.jpg",
+         "type": "Electronics"
+         },
+        {
+         "id": 3,
+        "name": "Perfumes",
+        "price": 29,
+         "image": "Perfumes.jpg",
+        "type": "Cosmetics"
+        },
+        {
+        "id": 4,
+        "name": "Facewash",
+        "price": 15,
+        "image": "Facewash.jpg",
+        "type": "Cosmetics"
+        },
+        {
+        "id": 5,
+        "name": "Union of dreams",
+        "price": 65,
+        "image": "Book1.jpg",
+        "type": "Books"
+        },
+        {
+        "id": 6,
+        "name": "Fruits",
+        "price": 15,
+        "image": "Fruits.jpg",
+        "type": "Groceries"
+        },
+        {
+        "id": 7,
+        "name": "Vegetables",
+        "price": 20,
+        "image": "Vegetables.jpg",
+        "type": "Groceries"
+        },
+        {
+        "id": 8,
+        "name": "Turtles of the river",
+        "price": 45,
+        "image": "Book2.jpg",
+        "type": "Books"
+        },
+        {
+        "id": 9,
+        "name": "Washing-Machine",
+        "price": 250,
+        "image": "Washing.jpg",
+        "type": "Electronics"
+        },
+        {
+            "id": 10,
+            "name": "Bread",
+            "price": 12,
+            "image": "Bread.jpg",
+            "type": "Groceries"
+        },
+        {
+            "id": 11,
+            "name": "Milk",
+            "price": 10,
+            "image": "Milk.jpg",
+            "type": "Groceries"
+        },
+        {
+            "id": 12,
+            "name": "Harrypotter",
+            "price": 150,
+            "image": "Book3.jpg",
+            "type": "Groceries"
+        },
+        {
+            "id": 13,
+            "name": "Vaseline",
+            "price": 10,
+            "image": "Vaseline.jpg",
+            "type": "Cosmetics"
+        }
+    ]
+}

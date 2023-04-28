@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "20-04-2023": {
+    "Task10": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/20-04-2023",
+            "outputPath": "dist/task10",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "20-04-2023:build:production"
+              "browserTarget": "Task10:build:production"
             },
             "development": {
-              "browserTarget": "20-04-2023:build:development"
+              "browserTarget": "Task10:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "20-04-2023:build"
+            "browserTarget": "Task10:build"
           }
         },
         "test": {
@@ -98,6 +98,6 @@
     }
   },
   "cli": {
-    "analytics": "6e020123-a862-4ce9-a755-2a86b6ca56a0"
+    "analytics": "e8b1d50f-9210-406f-9d28-b75c3283f463"
   }
 }
